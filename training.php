@@ -32,7 +32,8 @@
         </article>
 
         <article>
-            <img src="images/placeholder.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet commodo risus, vitae vehicula nulla eleifend non. Vestibulum viverra lectus quis enim accumsan ullamcorper. Morbi a sapien justo. Nullam sed tincidunt eros, at sollicitudin nisl. Mauris ac orci arcu. Nullam eget pellentesque diam. Sed fringilla, lacus eu viverra sodales, eros erat convallis justo, ac ultrices nunc massa sit amet dui. Quisque quis tempor arcu. Duis molestie pulvinar dui quis gravida. Maecenas a maximus tortor.
+</p>
             
             <div>
                 <button class="green-button">✓</button>
@@ -40,7 +41,11 @@
             </div>
         </article>
 
-        <article><img src="images/placeholder.jpg" alt="">
+        <article>
+            <audio controls>
+            <source src="horse.ogg" type="audio/mp3">
+
+            </audio>
             
             <div>
                 <button class="green-button">✓</button>
