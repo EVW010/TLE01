@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(220, 217, 217);
+    margin: 0;
+
+
+}
+
+body p {
+    font-size: 1.3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: 1.7rem;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10vw;
+    background-color: #c3e0f1;
+    border-bottom: 1px solid black;
+}
+
+header nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    height: 100%;
+    padding: 0 1.5rem;
+
+}
+
+header h1 {
+    margin-top: 7vh;
+    width: min(85%, 1200px);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #5CB5E8;
+    transition: 0.25s ease-in-out;
+}
+
+nav img {
+    width: 17vw;
+    height: auto;
+}
+
+nav img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+nav div {
+    display: flex;
+    flex-direction: space-between;
+    gap: 0;
+}
+
+header nav>div:last-child {
+    align-self: stretch;
+}
+
+.intro-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: min(85%, 1200px);
+    margin: 0 auto;
+}
+
+.intro-content img {
+    flex: 0 0 35%;
+    width: 10vw;
+    height: 40vh;
+}
+
+.intro-content p {
+    flex: 1;
+}
+
+main section {
+    gap: 2vh;
+    display: flex;
+    padding: 2vh 0;
+}
+
+main {
+    width: min(85%, 1200px);
+    margin: 0 auto;
+}
+
+.first-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section {
+    display: block;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-content p {
+    flex: 1;
+}
+
+.about-content img {
+    flex: 0 0 35%;
+}
+
+button {
+    background-color: #c3e0f1;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    background-color: #5CB5E8;
+    transition: 0.25s ease-in-out;
+}
