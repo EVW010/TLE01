@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #f8fafc;
+    background-color: #F1F1F5;
     color: #0f172a;
     min-height: 100vh;
 }
@@ -18,7 +18,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding-right: 10vw;
-    background-color: #c3e0f1;
+    background-color: #C9CDD6;
     border-bottom: 1px solid black;
 }
 
@@ -60,7 +60,7 @@ header nav>div:last-child {
 .results-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 24px; 
+    padding: 100px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,8 +129,15 @@ header nav>div:last-child {
 }
 
 @keyframes popIn {
-    0% { transform: scale(0.8); opacity: 0.5; }
-    100% { transform: scale(1); opacity: 1; }
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .score-divider {
@@ -211,16 +218,54 @@ header nav>div:last-child {
     transform: rotate(180deg);
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #C9CDD6;
+    padding: 20px 0; /* Voegt ruimte toe aan de boven- en onderkant */
+}
+
+footer img {
+    width: 25vw;
+    height: auto;
+    margin-bottom: 10px; /* Zorgt dat de afbeelding niet plakt aan de tekst */
+}
+
+footer p {
+    font-size: 1.1rem;
+    margin-bottom: 8px; /* Voegt een klein beetje ruimte onder de tekst toe */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.row-container {
+    display: flex;
+    gap: 15px;
+}
+
+.row-container a {
+    text-decoration: none;
+    color: black;
+}
+
+
 @media (max-width: 768px) {
     .results-card {
         flex-direction: column;
         padding: 40px 24px;
         gap: 40px;
     }
+
     .text-column {
         align-items: center;
         text-align: center;
     }
+
     .retry-btn {
         width: 100%;
         justify-content: center;

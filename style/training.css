@@ -124,8 +124,9 @@ button {
     font-size: 0.8rem;
     cursor: pointer;
     height: 90%;
-    width: 30%;
+    width: 40%;
 }
+
 .green-button {
     display: flex;
     justify-content: center;
