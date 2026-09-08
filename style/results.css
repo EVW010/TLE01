@@ -13,6 +13,50 @@ body {
     min-height: 100vh;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10vw;
+    background-color: #c3e0f1;
+    border-bottom: 1px solid black;
+}
+
+header nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    height: 100%;
+    padding: 0 1.5rem;
+}
+
+nav a:hover {
+    background-color: #5CB5E8;
+    transition: 0.25s ease-in-out;
+}
+
+nav img {
+    width: 17vw;
+    height: auto;
+}
+
+nav img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+nav div {
+    display: flex;
+    gap: 0;
+}
+
+header nav>div:last-child {
+    align-self: stretch;
+}
+
+
 .results-container {
     max-width: 1200px;
     margin: 0 auto;
