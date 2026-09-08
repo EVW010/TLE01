@@ -1,7 +1,7 @@
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
-    background-color: rgb(220, 217, 217);
+    background-color: #F1F1F5;
     margin: 0;
     overflow-x: hidden;
 
@@ -37,7 +37,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding-right: 10vw;
-    background-color: #c3e0f1;
+    background-color: #C9CDD6;
     border-bottom: 1px solid black;
 }
 
@@ -47,7 +47,7 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: #c3e0f1;
+    background-color: #C9CDD6;
 
 }
 
