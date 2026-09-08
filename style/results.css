@@ -225,15 +225,18 @@ footer {
     text-align: center;
     align-items: center;
     background-color: #C9CDD6;
+    padding: 20px 0; /* Voegt ruimte toe aan de boven- en onderkant */
 }
 
 footer img {
     width: 25vw;
     height: auto;
+    margin-bottom: 10px; /* Zorgt dat de afbeelding niet plakt aan de tekst */
 }
 
 footer p {
     font-size: 1.1rem;
+    margin-bottom: 8px; /* Voegt een klein beetje ruimte onder de tekst toe */
 }
 
 footer a:hover {
