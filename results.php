@@ -57,7 +57,6 @@ if ($score < 0) {
                     vitae vehicula nulla eleifend non. Vestibulum viverra lectus quis enim accumsan ullamcorper. 
                     Morbi a sapien justo. Nullam sed tincidunt eros, at sollicitudin nisl.
                 </p>
-                <!-- Button is nu een link naar index.html geworden -->
                 <a href="index.html" class="retry-btn">
                     <span>Opnieuw proberen</span>
                     <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="btn-icon">
@@ -68,7 +67,18 @@ if ($score < 0) {
 
         </div>
     </main>
+     <footer>
+        <img src="/images/logo.png" alt="Logo of the website">
+        <div class="row-container">
+            <a href="">Terms and Conditions</a>
+            <a href="">Cookie Policy</a>
+            <a href="">Privacy Policy</a>
+            <a href="">About</a>
 
-    <footer></footer>
+
+
+        </div>
+        <p>CMGT 2026, All rights reserved.</p>
+    </footer>
 </body>
 </html>

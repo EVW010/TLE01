@@ -218,6 +218,39 @@ header nav>div:last-child {
     transform: rotate(180deg);
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #C9CDD6;
+}
+
+footer img {
+    width: 25vw;
+    height: auto;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.row-container {
+    display: flex;
+    gap: 15px;
+}
+
+.row-container a {
+    text-decoration: none;
+    color: black;
+}
+
+
 @media (max-width: 768px) {
     .results-card {
         flex-direction: column;
