@@ -55,15 +55,19 @@ if (isset($_POST['submit'])) {
     </header>
     <main>
         <form action="" method='post'>
+        <div>
         <article>
             <img src="images/placeholder.jpg" alt="">
             
             <div>
-                <label for="green1">✓</label>
-                <input type="radio" class="green-button" id="green1" name='question1' value='green' required>
-
-                <label for="red1">X</label>
-                <input type="radio" class="red-button" id="red1" name='question1' value='red' required>
+                <div class="green-button">
+                    <label for="green1">✓</label>
+                    <input type="radio" class="green-check" id="green1" name='question1' value='green' required>
+                </div>
+                <div class="red-button">
+                    <label for="red1">X</label>
+                    <input type="radio" class="red-check" id="red1" name='question1' value='red' required>
+                </div>
             </div>
 
         </article>
@@ -72,24 +76,30 @@ if (isset($_POST['submit'])) {
             <img src="images/placeholder.jpg" alt="">
             
             <div>
-                <label for="green2">✓</label>
-                <input type="radio" class="green-button" id="green2" name='question2' value='green' required>
-
-                <label for="red2">X</label>
-                <input type="radio" class="red-button" id="red2" name='question2' value='red' required>
+                <div class="green-button">
+                    <label for="green2">✓</label>
+                    <input type="radio" class="green-check" id="green2" name='question2' value='green' required>
+                </div>
+                <div class="red-button">
+                    <label for="red2">X</label>
+                    <input type="radio" class="red-check" id="red2" name='question2' value='red' required>
+                </div>
             </div>
         </article>
 
         <article>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet commodo risus, vitae vehicula nulla eleifend non. Vestibulum viverra lectus quis enim accumsan ullamcorper. Morbi a sapien justo. Nullam sed tincidunt eros, at sollicitudin nisl. Mauris ac orci arcu. Nullam eget pellentesque diam. Sed fringilla, lacus eu viverra sodales, eros erat convallis justo, ac ultrices nunc massa sit amet dui. Quisque quis tempor arcu. Duis molestie pulvinar dui quis gravida. Maecenas a maximus tortor.
-</p>
+            </p>
             
             <div>
-                <label for="green3">✓</label>
-                <input type="radio" class="green-button" id="green3" name='question3' value='green' required>
-
-                <label for="red3">X</label>
-                <input type="radio" class="red-button" id="red3" name='question3' value='red' required>
+                <div class="green-button">
+                    <label for="green3">✓</label>
+                    <input type="radio" class="green-check" id="green3" name='question3' value='green' required>
+                </div>
+                <div class="red-button">
+                    <label for="red3">X</label>
+                    <input type="radio" class="red-check" id="red3" name='question3' value='red' required>
+                </div>
             </div>
         </article>
 
@@ -100,15 +110,21 @@ if (isset($_POST['submit'])) {
             </audio>
             
             <div>
-                <label for="green4">✓</label>
-                <input type="radio" class="green-button" id="green4" name='question4' value='green' required>
+                <div class="green-button">
+                    <label for="green4">✓</label>
+                    <input type="radio" class="green-check" id="green4" name='question4' value='green' required>
+                </div>
+                <div class="red-button">
+                    <label for="red4">X</label>
+                    <input type="radio" class="red-check" id="red4" name='question4' value='red' required>
+                </div>
+            </div>
+        </article>
+    </div>
 
-                <label for="red4">X</label>
-                <input type="radio" class="red-button" id="red4" name='question4' value='red' required>
-            </div></article>
-            <input type="submit" name="submit">
+    <input type="submit" name="submit">
 
-</form>
+    </form>
     </main>
 
     <footer></footer>
