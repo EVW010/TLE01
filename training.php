@@ -127,6 +127,18 @@ if (isset($_POST['submit'])) {
     </form>
     </main>
 
-    <footer></footer>
+    <footer>
+        <img src="/images/logo.png" alt="Logo of the website">
+        <div class="row-container">
+            <a href="">Terms and Conditions</a>
+            <a href="">Cookie Policy</a>
+            <a href="">Privacy Policy</a>
+            <a href="">About</a>
+
+
+
+        </div>
+        <p>CMGT 2026, All rights reserved.</p>
+    </footer>
 </body>
 </html>
