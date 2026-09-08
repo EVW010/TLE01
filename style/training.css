@@ -16,6 +16,10 @@ main {
     padding: 20px 0;
 }
 
+header h1, header p{
+    text-align: center;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;

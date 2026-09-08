@@ -52,12 +52,15 @@ if (isset($_POST['submit'])) {
                 <a href="results.php">Results</a>
             </div>
         </nav>
+
+        <h1>Is it AI or not?</h1>
+        <p>Select the checkmark if you think it is real and the cross if it is AI</p>
     </header>
     <main>
         <form action="" method='post'>
         <div>
         <article>
-            <img src="images/placeholder.jpg" alt="">
+            <img src="images/monke.png" alt="">
             
             <div>
                 <div class="green-button">
@@ -73,7 +76,7 @@ if (isset($_POST['submit'])) {
         </article>
 
         <article>
-            <img src="images/placeholder.jpg" alt="">
+            <img src="images/tree.png" alt="">
             
             <div>
                 <div class="green-button">
