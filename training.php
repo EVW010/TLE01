@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
 
     $score = round($rightAnswers / 4 * 10);
     
-    header('location: results.php?')
+    header("location: results.php?number=$score");  
 } else {
 
 }
@@ -41,7 +41,18 @@ if (isset($_POST['submit'])) {
     <script type="application/javascript" src="js/training.js"></script>
 </head>
 <body>
-    <nav></nav>
+    <header>
+        <nav>
+            <div>
+                <img src='/images/logo.png' alt="Logo of the site">
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="training.php">Training</a>
+                <a href="results.php">Results</a>
+            </div>
+        </nav>
+    </header>
     <main>
         <form action="" method='post'>
         <article>
